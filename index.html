@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Watcher of the Void</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game">
+    <div id="eye-container">
+      <div id="eye">
+        <div id="glow"></div>
+        <div id="pupil">♦️</div>
+      </div>
+    </div>
+    <div id="hud">
+      <h1>Watcher of the Void</h1>
+      <div id="stats">
+        <p>Life: <span id="life">31</span> days</p>
+        <p>XP: <span id="xp">0</span></p>
+        <p>Coins: <span id="coins">0</span></p>
+      </div>
+      <div id="actions">
+        <button onclick="playWithEye()">Play</button>
+        <button onclick="sendOnMission()">Send on Mission</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
